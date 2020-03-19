@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {}
+    "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
+    "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj",
         "projectName": "Frist_Project_Stefanini.Domain",
-        "projectPath": "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj",
+        "projectPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj",
         "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\Frist_Project_Stefanini.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\Frist_Project_Stefanini.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

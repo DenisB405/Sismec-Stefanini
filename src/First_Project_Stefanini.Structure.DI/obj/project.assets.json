@@ -5749,11 +5749,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj",
+      "projectUniqueName": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj",
       "projectName": "First_Project_Stefanini.Structure.DI",
-      "projectPath": "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj",
+      "projectPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj",
       "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\First_Project_Stefanini.Structure.DI\\obj\\",
+      "outputPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\First_Project_Stefanini.Structure.DI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5773,14 +5773,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj": {
-              "projectPath": "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj"
+            "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj": {
+              "projectPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj"
             },
-            "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
-              "projectPath": "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj"
+            "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
+              "projectPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj"
             },
-            "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
-              "projectPath": "C:\\Users\\Denis\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\All\\Api (3)\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
+            "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
+              "projectPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
             }
           }
         }
