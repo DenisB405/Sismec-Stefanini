@@ -6998,11 +6998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\tests\\First_Project_Stefanini.TestesUI\\First_Project_Stefanini.TestesUI.csproj",
+      "projectUniqueName": "C:\\Users\\Denis\\Desktop\\Git + Github -  Apresentação\\Nova pasta\\Sismec-Stefanini\\tests\\First_Project_Stefanini.TestesUI\\First_Project_Stefanini.TestesUI.csproj",
       "projectName": "First_Project_Stefanini.TestesUI",
-      "projectPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\tests\\First_Project_Stefanini.TestesUI\\First_Project_Stefanini.TestesUI.csproj",
+      "projectPath": "C:\\Users\\Denis\\Desktop\\Git + Github -  Apresentação\\Nova pasta\\Sismec-Stefanini\\tests\\First_Project_Stefanini.TestesUI\\First_Project_Stefanini.TestesUI.csproj",
       "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\tests\\First_Project_Stefanini.TestesUI\\obj\\",
+      "outputPath": "C:\\Users\\Denis\\Desktop\\Git + Github -  Apresentação\\Nova pasta\\Sismec-Stefanini\\tests\\First_Project_Stefanini.TestesUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

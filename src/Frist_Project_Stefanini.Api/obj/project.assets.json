@@ -8684,11 +8684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Denis\\Desktop\\Git + Github -  Apresentação\\Nova pasta\\Sismec-Stefanini\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj",
       "projectName": "Frist_Project_Stefanini.Api",
-      "projectPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj",
+      "projectPath": "C:\\Users\\Denis\\Desktop\\Git + Github -  Apresentação\\Nova pasta\\Sismec-Stefanini\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj",
       "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\Frist_Project_Stefanini.Api\\obj\\",
+      "outputPath": "C:\\Users\\Denis\\Desktop\\Git + Github -  Apresentação\\Nova pasta\\Sismec-Stefanini\\src\\Frist_Project_Stefanini.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -8708,14 +8708,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj": {
-              "projectPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj"
+            "C:\\Users\\Denis\\Desktop\\Git + Github -  Apresentação\\Nova pasta\\Sismec-Stefanini\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj": {
+              "projectPath": "C:\\Users\\Denis\\Desktop\\Git + Github -  Apresentação\\Nova pasta\\Sismec-Stefanini\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj"
             },
-            "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj": {
-              "projectPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj"
+            "C:\\Users\\Denis\\Desktop\\Git + Github -  Apresentação\\Nova pasta\\Sismec-Stefanini\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj": {
+              "projectPath": "C:\\Users\\Denis\\Desktop\\Git + Github -  Apresentação\\Nova pasta\\Sismec-Stefanini\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj"
             },
-            "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
-              "projectPath": "C:\\Users\\Denis\\OneDrive - STEFANINI S.A\\Stefanini\\Projetos\\Projeto Sismec\\Repo Local\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj"
+            "C:\\Users\\Denis\\Desktop\\Git + Github -  Apresentação\\Nova pasta\\Sismec-Stefanini\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
+              "projectPath": "C:\\Users\\Denis\\Desktop\\Git + Github -  Apresentação\\Nova pasta\\Sismec-Stefanini\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj"
             }
           }
         }
