@@ -1,0 +1,30 @@
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.csprojAssemblyReference.cache
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.AssemblyInfoInputs.cache
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.AssemblyInfo.cs
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.deps.json
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.dll
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.pdb
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Application.dll
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.dll
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.dll
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Application.pdb
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.pdb
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.pdb
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.csproj.CopyComplete
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.dll
+C:\Users\Denis\OneDrive - STEFANINI S.A\Stefanini\Projetos\Projeto Sismec\Repo Local\src\First_Project_Stefanini.Structure.DI\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.pdb
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.deps.json
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.dll
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.pdb
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Application.dll
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.dll
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.dll
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Application.pdb
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.pdb
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\bin\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.pdb
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.csprojAssemblyReference.cache
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.AssemblyInfoInputs.cache
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.AssemblyInfo.cs
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.csproj.CopyComplete
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.dll
+C:\Users\solar\source\repos\Sismec-Stefanini\src\First_Project_Stefanini.Structure.DI\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.DI.pdb

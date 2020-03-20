@@ -1,0 +1,87 @@
+/*small/medium side display*/
+@media (min-width: 768px) {
+  /*gives sidebar width/height*/
+  nav.sidebar {
+    width: 140px;
+    height: 100% !important;
+    margin-left: -160px;
+    padding-bottom: 31.05%;
+    float: left;
+    z-index: 8000;
+    margin-bottom: 0px;
+  }
+
+  div#background-navbar-left{
+    width: 140px;
+    height: 100% !important;
+    margin-left: -160px;
+    padding-bottom: 31.05%;
+    float: left;
+    z-index: 8000;
+    margin-bottom: 0px;
+  }
+
+  div#background-navbar-left.short{
+    width : 0px;
+  }
+
+  div#sidebar-candidato {
+    > a.btn {
+      color: #ffffff;
+      font-weight: bold;
+    }
+  }
+  div#sidebar-curso {
+    > a.btn {
+      color: #ffffff;
+      font-weight: bold;
+    }
+  }
+  div#sidebar-home {
+    > a.btn {
+      color: #ffffff;
+      font-weight: bold;
+    }
+  }
+  div#sidebar-instituicao {
+    > a.btn {
+      color: #ffffff;
+      font-weight: bold;
+    }
+  }
+  div#sidebar-relatorio {
+    > a.btn {
+      color: #ffffff;
+      font-weight: bold;
+    }
+  }
+
+}
+/*give sidebar 100% width;*/
+nav.sidebar li {
+  width: 100%;
+  font-size: 30px;
+}
+
+/* Move nav to full on mouse over*/
+nav.sidebar:hover {
+  margin-left: 0px;
+}
+/*for hiden things when navbar hidden*/
+.forAnimate {
+  opacity: 0;
+}
+
+/* .....NavBar: Fully showing nav bar..... */
+
+@media (min-width: 1330px) {
+  /*Show all nav*/
+  nav.sidebar {
+    margin-left: 0px;
+    float: left;
+  }
+  /*Show hidden items on nav*/
+  nav.sidebar .forAnimate {
+    opacity: 1;
+  }
+}
