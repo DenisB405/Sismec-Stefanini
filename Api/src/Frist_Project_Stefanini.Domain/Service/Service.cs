@@ -22,5 +22,10 @@ namespace Frist_Project_Stefanini.Domain.Service
                 return null;
             return _IRepository.Add(entity);
         }
+
+        public IEnumerable<TEntity> getAll()
+        {
+            return _IRepository.GetAll();
+        }
     }
 }

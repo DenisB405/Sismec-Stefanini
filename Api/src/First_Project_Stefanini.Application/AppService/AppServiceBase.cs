@@ -5,6 +5,7 @@ using Frist_Project_Stefanini.ApplicarionCore.Entity;
 using Frist_Project_Stefanini.Domain.Interfaces.Services;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace First_Project_Stefanini.Application.AppService
@@ -30,6 +31,17 @@ namespace First_Project_Stefanini.Application.AppService
             var Entity = servico.Add(convert);
             
             return iMapper.Map<TEntityResponse>(Entity);
+        }
+
+        public IEnumerable<TEntityResponse> getAll()
+        {
+            var entitys = servico.getAll();
+            IList<TEntityResponse> lista = new List<TEntityResponse>();
+            foreach(var entity in entitys)
+            {
+                lista.Add(iMapper.Map<TEntityResponse>(entity));
+            }
+            return lista.AsEnumerable();
         }
     }
 }
