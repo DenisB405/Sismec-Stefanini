@@ -7,8 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class InstituicaoComponent implements OnInit {
-
-  constructor() {}
-
+  config: any;
+  constructor() {
+    this.config = {
+      itemsPerPage: 10,
+      currentPage: 1
+    }; 
+  }
+  pageChanged(event){
+    this.config.currentPage = event;
+  }
   ngOnInit() { }
 }
