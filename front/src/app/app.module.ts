@@ -8,12 +8,13 @@ import { FooterComponent } from './footer/footer.component';
 import { NavegationBarComponent } from './navegation-bar/navegation-bar.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
-import { InstituicaoComponent } from './instituicao/instituicao.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { HttpModule } from '@angular/http';
 import { TextMaskModule } from 'angular2-text-mask';
 import { CadastroIntituicaoComponent } from './Instituicao/cadastro-intituicao/cadastro-intituicao.component';
 import { InstituicaoComponent } from './Instituicao/instituicao/instituicao.component';
+import {NgxPaginationModule} from 'ngx-pagination';
+
 
 
 
@@ -34,7 +35,8 @@ import { InstituicaoComponent } from './Instituicao/instituicao/instituicao.comp
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
-    TextMaskModule
+    TextMaskModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
