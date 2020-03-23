@@ -1,0 +1,42 @@
+div#title-cadastro {
+    > div.content-fluid {
+      > h2 {
+        > p {
+          height: 10rem;
+          display: table-cell;
+          vertical-align: middle;
+          position: relative;
+          margin-left: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  
+  input#descricao {
+    position: relative;
+    width: 300px;
+    height: 38px;
+    padding: 0;
+  }
+  button#button-cadastro {
+    position: relative;
+    margin-left: 450%;
+  }
+  
+  a#button-cancelar {
+    position: relative;
+    margin-left: 450%;
+  }
+  
+  .alert{
+  
+      position: relative;
+      /* padding: .75rem 1.25rem; */
+      margin-bottom: 1rem;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+      margin-top: 50px;
+    }
+  
+  

@@ -5,13 +5,13 @@ import { Observable, Subject } from 'rxjs';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
-@Component({
-  selector: 'app-instituicao',
-  templateUrl: './instituicao.component.html',
-  styleUrls: ['./instituicao.component.scss']
-})
 
-export class InstituicaoComponent implements OnInit {
+@Component({
+  selector: 'app-cadastro-intituicao',
+  templateUrl: './cadastro-intituicao.component.html',
+  styleUrls: ['./cadastro-intituicao.component.scss']
+})
+export class CadastroIntituicaoComponent implements OnInit {
   errorsCodigo: Array<string> = [];
   errors: Array<string> = [];
   cont : number = 0;
@@ -79,3 +79,4 @@ export class InstituicaoComponent implements OnInit {
     this.InstituicaoForm.reset();
   }
 }
+
