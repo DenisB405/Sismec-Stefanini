@@ -13,6 +13,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { HttpModule } from '@angular/http';
 import { TextMaskModule } from 'angular2-text-mask';
 import { CadastroIntituicaoComponent } from './Instituicao/cadastro-intituicao/cadastro-intituicao.component';
+import { InstituicaoComponent } from './Instituicao/instituicao/instituicao.component';
 
 
 
