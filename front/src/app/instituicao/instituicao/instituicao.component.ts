@@ -18,25 +18,25 @@ export class InstituicaoComponent implements OnInit {
   instituicoes: Instituicao[];
   Request : instituicaoRequest;
   constructor(private service: InstituicaoService ) {
+    this.Response = new instituicaoResponse();
     this.Request = new instituicaoRequest();
     this.Request.page = 1;
     this.Request.quantidade = 10;
-    this.pageChanged(this.Request.page)
   }
   pageChanged(event: number){
     this.Request.page = event;
     this.list();
     this.config = {
       itemsPerPage: this.quantidadeDeRegistros,
-      currentPage: 1  
+      currentPage: event
   }; 
-  console.log(this.Response.instituicoes);
   }
   list(){
     this.service.list(this.Request)
     .subscribe(dados =>this.Response = dados);
   }
   ngOnInit() { 
-    this.list();
+    this.pageChanged(this.Request.page)
+    console.log(this.Response);
   }
 }

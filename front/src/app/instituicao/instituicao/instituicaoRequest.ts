@@ -1,4 +1,4 @@
 export class instituicaoRequest {
-    page: number;
     quantidade: number;
+    page: number;
 }
