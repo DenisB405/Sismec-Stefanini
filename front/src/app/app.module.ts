@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -14,6 +13,7 @@ import { TextMaskModule } from 'angular2-text-mask';
 import { CadastroIntituicaoComponent } from './Instituicao/cadastro-intituicao/cadastro-intituicao.component';
 import { InstituicaoComponent } from './Instituicao/instituicao/instituicao.component';
 import {NgxPaginationModule} from 'ngx-pagination';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -36,7 +36,8 @@ import {NgxPaginationModule} from 'ngx-pagination';
     ReactiveFormsModule,
     HttpModule,
     TextMaskModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

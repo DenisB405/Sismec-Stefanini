@@ -37,3 +37,16 @@ C:\Users\Denis\Desktop\Repositorio Sismec\Sismec-Stefanini\Api\src\First_Project
 C:\Users\Denis\Desktop\Repositorio Sismec\Sismec-Stefanini\Api\src\First_Project_Stefanini.Structure\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.csproj.CopyComplete
 C:\Users\Denis\Desktop\Repositorio Sismec\Sismec-Stefanini\Api\src\First_Project_Stefanini.Structure\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.dll
 C:\Users\Denis\Desktop\Repositorio Sismec\Sismec-Stefanini\Api\src\First_Project_Stefanini.Structure\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.pdb
+C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\First_Project_Stefanini.Structure\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.deps.json
+C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\First_Project_Stefanini.Structure\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.runtimeconfig.json
+C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\First_Project_Stefanini.Structure\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.runtimeconfig.dev.json
+C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\First_Project_Stefanini.Structure\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.dll
+C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\First_Project_Stefanini.Structure\bin\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.pdb
+C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\First_Project_Stefanini.Structure\bin\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.dll
+C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\First_Project_Stefanini.Structure\bin\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.pdb
+C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\First_Project_Stefanini.Structure\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.csprojAssemblyReference.cache
+C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\First_Project_Stefanini.Structure\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.AssemblyInfoInputs.cache
+C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\First_Project_Stefanini.Structure\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.AssemblyInfo.cs
+C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\First_Project_Stefanini.Structure\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.csproj.CopyComplete
+C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\First_Project_Stefanini.Structure\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.dll
+C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\First_Project_Stefanini.Structure\obj\Debug\netcoreapp3.1\First_Project_Stefanini.Structure.Data.pdb

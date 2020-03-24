@@ -1,20 +1,27 @@
-<div class="paginacao" style="text-align:center">
-    <h4>
-        Lista de Instituições
-    </h4>
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">Código</th>
-                <th scope="col">Descrição</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="let item of collection.data | paginate: config ">
-                <th scope=" row ">{{item.id}}</th>
-                <td>{{item.value}}</td>
-            </tr>
-        </tbody>
-    </table>
-    <pagination-controls (pageChange)="pageChanged($event) "></pagination-controls>
+<div class="card mt-3">
+    <div class="card-header">
+        <div class="float-left">
+            <h4>Instituições</h4>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Descrição</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let Instituicao of Response.instituicoes | paginate: config ">
+                    <td>{{Instituicao.codigo}}</td>
+                    <td>{{Instituicao.description}}</td>
+                    <td>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
+    </div>
 </div>
