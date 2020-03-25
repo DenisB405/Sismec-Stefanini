@@ -16,6 +16,14 @@ namespace First_Project_Stefanini.Application.AppService
         public InstituicaoAppService(IInstituicaoService servico, IMapper iMapper) : base(servico, iMapper)
         {
             servicoInstituicao = servico;
+            for(int i = 0; i <= 153; i++)
+            {
+                servicoInstituicao.Add(new Instituicao()
+                {
+                    Codigo = i,
+                    Descricao = "Universidade federal"
+                });
+            }
         }
 
         public InstituicaoResponse DeleteByCodigo(int Codigo)

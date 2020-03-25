@@ -41,9 +41,12 @@ namespace Frist_Project_Stefanini.Api.Controllers
         public ActionResult<PaginacaoResponse<TEntityResponse>> getPagina([FromBody]PaginacaoRequest dado)
         {
             var lista = app.getAll().ToList();
-            
+
             if (lista != null)
+            {
+                var c = Paginacao<TEntityResponse>.getPage(lista, dado);
                 return Paginacao<TEntityResponse>.getPage(lista, dado);
+            }
             else
                 return BadRequest(400); 
         }
