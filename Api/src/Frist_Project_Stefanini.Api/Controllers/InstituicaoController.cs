@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using First_Project_Stefanini.Application.AppService;
 using First_Project_Stefanini.Application.DTO.Instituicao;
+using First_Project_Stefanini.Application.DTO.Paginacao;
 using First_Project_Stefanini.Application.Interface;
 using Frist_Project_Stefanini.ApplicarionCore.Entity;
 using Microsoft.AspNetCore.Http;
@@ -22,6 +23,12 @@ namespace Frist_Project_Stefanini.Api.Controllers
             {
                 app.Add(new InstituicaoRequest() { codigo = i, descricao = "descript" });
             }
+        }
+
+        [HttpPut]
+        public ActionResult update([FromBody]InstituicaoRequest dado)
+        {
+            return Ok();
         }
     }
 }

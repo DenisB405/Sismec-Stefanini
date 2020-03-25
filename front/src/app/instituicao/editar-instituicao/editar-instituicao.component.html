@@ -1,0 +1,35 @@
+<div class="row" id="title-cadastro">
+    <div class="content-fluid" style="margin-left: 50px;">
+        <h2>
+            <p> Editar Instituição</p>
+        </h2>
+    </div>
+</div>
+
+<form [formGroup]="InstituicaoForm" style="margin-left: 30%;" (ngSubmit)="onSubmit()">
+    <li *ngFor="let erro of errorsCodigo">{{erro}}</li>
+    <div class="form-group">
+        <td>
+            <div class="form-group row row-cols-3">
+        <td><label for="codigo">Código</label></td>
+        <td><input formControlName="codigo" class="form-control" id="codigo" type="text"
+                [textMask]="{mask: mascaraCod}" maxlength="5" [disabled]="isDisabled('codigo')"></td>
+    </div>
+    </td>
+    </div>
+
+    <td>
+        <div class="form-group row row-cols-4">
+    <td><label>Descrição</label></td>
+    <td><input formControlName="descricao" type="text" class="form-control" id="descricao"></td>
+    </div>
+    </td>
+
+    <div class="row">
+        <div class="col align-self-end">
+            <td><button type="submit" class="text-secondary" id="button-edit">
+                    Editar
+                </button></td>
+        </div>
+    </div>
+</form>

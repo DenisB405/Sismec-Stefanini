@@ -10,8 +10,10 @@ import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { HttpModule } from '@angular/http';
 import { TextMaskModule } from 'angular2-text-mask';
+import { CandidatoComponent } from './candidato/candidato.component';
 import { CadastroIntituicaoComponent } from './Instituicao/cadastro-intituicao/cadastro-intituicao.component';
 import { InstituicaoComponent } from './Instituicao/instituicao/instituicao.component';
+import { EditarInstituicaoComponent } from './Instituicao/editar-instituicao/editar-instituicao.component';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -26,7 +28,9 @@ import { HttpClientModule } from '@angular/common/http';
     NavegationBarComponent,
     MenuLateralComponent,
     InstituicaoComponent,
+    CandidatoComponent,
     CadastroIntituicaoComponent,
+    EditarInstituicaoComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,14 @@
+div#title-cadastro-candidato {
+    > div.content-fluid {
+      > h2 {
+        > p {
+          height: 10rem;
+          display: table-cell;
+          vertical-align: middle;
+          position: relative;
+          margin-left: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+  }

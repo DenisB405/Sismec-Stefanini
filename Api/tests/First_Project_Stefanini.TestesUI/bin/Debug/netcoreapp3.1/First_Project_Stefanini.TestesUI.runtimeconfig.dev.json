@@ -1,9 +1,15 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\Denis\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\Denis\\.nuget\\packages",
       "C:\\Microsoft\\Xamarin\\NuGet"
+=======
+      "C:\\Users\\solar\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\solar\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+>>>>>>> Feture/Front/TelaEditarInstituicao
     ]
   }
 }
