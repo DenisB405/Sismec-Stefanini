@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
+import { Instituicao } from '../instituicao/instituicao';
 
 @Component({
   selector: 'app-editar-instituicao',
@@ -14,6 +15,8 @@ export class EditarInstituicaoComponent implements OnInit {
   errors: Array<string> = [];
   cont: number = 0;
   InstituicaoForm: FormGroup;
+  private readonly API;
+
   constructor(
     private formBuilder: FormBuilder,
     private http: Http,
@@ -22,10 +25,20 @@ export class EditarInstituicaoComponent implements OnInit {
   ) { }
 
   public mascaraCodigo = [/[1-9]/, /\d/, /\d/, /\d/, /\d/];
+
   ngOnInit() {
+
+    // this.route.params.subscribe(
+    //   (params:any) => {
+    //     const codigoParam = params['codigo'];
+    //   }
+    // );
+
+    const instituicao = this.route.snapshot.data['instituicao'];
+
     this.InstituicaoForm = this.formBuilder.group({
-      codigo: [1, [Validators.required, Validators.maxLength(5)]],
-      descricao: [null, [Validators.required, Validators.maxLength(255)]]
+      codigo: [instituicao.codigo],
+      descricao: [instituicao.descricao, [Validators.required, Validators.maxLength(255)]]
     });
   }
 
@@ -54,6 +67,7 @@ export class EditarInstituicaoComponent implements OnInit {
   onEdit(codigo) {
     this.router.navigate(['instituicao/editarinstituicao', codigo], { relativeTo: this.route });
   }
+
   onSubmit() {
     this.errorsCodigo = [];
 
@@ -61,6 +75,7 @@ export class EditarInstituicaoComponent implements OnInit {
     this.validaCodigo();
     if (this.InstituicaoForm.get('codigo')) {
       //update
+
     } else {
       //error
     }
@@ -74,9 +89,16 @@ export class EditarInstituicaoComponent implements OnInit {
     //     (error: any) => alert('erro')
     //   );
   }
+  
+  loadByCodigo(codigo){
+    return this.http.get<Instituicao>(`${this.API}/${codigo}`).pipe(take(1));
+  }
 
-  // update(candidato) {
-  //   return this.http.put()
+  // updateForm(instituicao) {
+  //   this.InstituicaoForm.patchValue({
+  //     codigo: instituicao.codigo,
+  //     descricao: instituicao.descricao
+  //   });
   // }
 
   validaCodigo() {

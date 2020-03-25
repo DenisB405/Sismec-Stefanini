@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { CadastroIntituicaoComponent } from './Instituicao/cadastro-intituicao/cadastro-intituicao.component';
 import { InstituicaoComponent } from './Instituicao/instituicao/instituicao.component';
 import { EditarInstituicaoComponent } from './Instituicao/editar-instituicao/editar-instituicao.component';
+import { InstituicaoResolverGuard } from './guards/instituicao-resolver.guard';
 
 
 const routes: Routes = [
@@ -20,7 +21,10 @@ const routes: Routes = [
     path: 'instituicao/cadastroinstituicao', component: CadastroIntituicaoComponent
   },
   {
-    path: 'instituicao/editarinstituicao/:id', component: EditarInstituicaoComponent
+    path: 'instituicao/editarinstituicao/:codigo', component: EditarInstituicaoComponent,
+    resolve:{
+      instituicao: InstituicaoResolverGuard
+    }
   }
 ];
 

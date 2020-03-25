@@ -1,0 +1,124 @@
+<div class="row" id="title-cadastro-candidato">
+    <div class="content-fluid" style="margin-left: 50px;">
+        <h2>
+            <p>Cadastro</p>
+        </h2>
+    </div>
+
+</div>
+
+<form [formGroup]="CandidatoForm" style="margin-left: 30%;" (ngSubmit)="onSubmit()">
+    <td>
+        <div class="form-group">
+
+            <div class="row row-col-4">
+    <td><label for="nome">Nome:</label></td>
+    <td><input formControlName="nome" class="form-control" type="text" id="nome"></td>
+    </div>
+
+    </div>
+    </td>
+
+
+    <td>
+        <div class="form-group">
+    <td><label for="apelido">Apelido:</label></td>
+    <td><input formControlName="apelido" class="form-control" type="text" id="apelido"></td>
+    </div>
+    </td>
+
+    <br>
+
+    <td>
+
+        <div class="form-group">
+    <td><label for="CPF">CPF:</label></td>
+    <td><input formControlName="CPF" class="form-control" type="text" id="CPF"></td>
+    </div>
+    </td>
+
+    <td>
+        <div class="form-group">
+    <td><label for="CEP">CEP:</label></td>
+    <td><input formControlName="CEP" class="form-control" type="text" id="CEP"></td>
+    </div>
+    </td>
+
+    <br>
+
+    <td>
+        <div class="form-group">
+    <td><label for="estado">Estado:</label></td>
+    <td><select>
+            <option></option>
+        </select></td>
+    </div>
+
+    </td>
+
+    <td>
+        <div class="form-group">
+    <td><label for="cidade">Cidade:</label></td>
+    <td><select>
+            <option></option>
+        </select></td>
+    </div>
+    </td>
+
+    <br>
+
+    <td>
+        <div class="form-group">
+    <td><label for="bairro">Bairro:</label></td>
+    <td><input formControlName="bairro" class="form-control" type="text" id="bairro"></td>
+    </div>
+    </td>
+    <td>
+        <div class="form-group">
+    <td><label for="numero">N°:</label></td>
+    <td><input formControlName="numero" class="form-control" type="text" id="numero"></td>
+    </div>
+
+    </td>
+
+    <br>
+
+    <td>
+        <div class="form-group">
+    <td><label for="complemento">Complemento:</label></td>
+    <td><input formControlName="complemento" class="form-control" type="text" id="complemento"></td>
+    </div>
+    </td>
+
+    <td>
+        <div class="form-group">
+    <td><label for="email">Email:</label></td>
+    <td><input formControlName="email" class="form-control" type="text" id="email"></td>
+    </div>
+    </td>
+
+    <br>
+
+    <td>
+        <div class="form-group">
+    <td><label for="celular">Celular:</label></td>
+    <td><input formControlName="celular" class="form-control" type="text" id="celular"></td>
+    </div>
+    </td>
+
+    <td>
+        <div class="form-group">
+    <td><label for="celular-opcional">Celular(opcional):</label></td>
+    <td><input formControlName="celularOpcional" class="form-control" type="text" id="celular-opcional"></td>
+    </div>
+    </td>
+</form>
+
+<div class="row">
+    <div class="col align-self-end">
+        <button type="submit" class="text-secondary" id="button-cadastro-candidato">
+            Cadastrar</button>
+
+        <a class="btn text-secondary" href="Home" id="button-cancelar-candidato">Cancelar</a>
+    </div>
+</div>
