@@ -13,10 +13,7 @@ export class InstituicaoService {
 
   constructor(private http: HttpClient) { }
   list(request: instituicaoRequest){
-    return this.http.post<instituicaoResponse>('https://localhost:44351/Instituicao/getPagina', request)
-    .pipe(
-      tap(console.log)
-    )
+    return this.http.post<instituicaoResponse>('https://localhost:44351/Instituicao/getPagina', request);
   }
 }
 

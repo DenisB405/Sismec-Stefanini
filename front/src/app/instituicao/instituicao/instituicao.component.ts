@@ -22,10 +22,15 @@ export class InstituicaoComponent implements OnInit {
     this.Request = new instituicaoRequest();
     this.Request.page = 1;
     this.Request.quantidade = 10;
+    this.config = {
+      itemsPerPage: this.Request.quantidade,
+      currentPage: this.Request.page
+  }; 
   }
   pageChanged(event: number){
     this.Request.page = event;
     this.list();
+    console.log(this.Response.listaRegistros);   
     this.config = {
       itemsPerPage: this.quantidadeDeRegistros,
       currentPage: event
@@ -36,7 +41,8 @@ export class InstituicaoComponent implements OnInit {
     .subscribe(dados =>this.Response = dados);
   }
   ngOnInit() { 
-    this.pageChanged(this.Request.page)
-    console.log(this.Response);
+    this.pageChanged(1);
+    this.list();
+             
   }
 }

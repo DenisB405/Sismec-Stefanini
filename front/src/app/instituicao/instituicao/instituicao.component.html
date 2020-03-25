@@ -14,9 +14,9 @@
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let Instituicao of Response.instituicoes | paginate: config ">
+                <tr *ngFor="let Instituicao of Response.listaRegistros | paginate: config ">
                     <td>{{Instituicao.codigo}}</td>
-                    <td>{{Instituicao.description}}</td>
+                    <td>{{Instituicao.descricao}}</td>
                     <td>
                     </td>
                 </tr>

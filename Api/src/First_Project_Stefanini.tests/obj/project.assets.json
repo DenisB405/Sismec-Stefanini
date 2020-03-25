@@ -10148,23 +10148,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\flavi\\.nuget\\packages\\": {},
+    "C:\\Users\\Denis\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flavi\\Music\\projeto-desenvolvimento-sismec\\Api\\src\\First_Project_Stefanini.tests\\First_Project_Stefanini.TestRepositorio.csproj",
+      "projectUniqueName": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.tests\\First_Project_Stefanini.TestRepositorio.csproj",
       "projectName": "First_Project_Stefanini.TestRepositorio",
-      "projectPath": "C:\\Users\\flavi\\Music\\projeto-desenvolvimento-sismec\\Api\\src\\First_Project_Stefanini.tests\\First_Project_Stefanini.TestRepositorio.csproj",
-      "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flavi\\Music\\projeto-desenvolvimento-sismec\\Api\\src\\First_Project_Stefanini.tests\\obj\\",
+      "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.tests\\First_Project_Stefanini.TestRepositorio.csproj",
+      "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -10178,14 +10178,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\flavi\\Music\\projeto-desenvolvimento-sismec\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
-              "projectPath": "C:\\Users\\flavi\\Music\\projeto-desenvolvimento-sismec\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj"
+            "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
+              "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj"
             },
-            "C:\\Users\\flavi\\Music\\projeto-desenvolvimento-sismec\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj": {
-              "projectPath": "C:\\Users\\flavi\\Music\\projeto-desenvolvimento-sismec\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj"
+            "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj": {
+              "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj"
             },
-            "C:\\Users\\flavi\\Music\\projeto-desenvolvimento-sismec\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
-              "projectPath": "C:\\Users\\flavi\\Music\\projeto-desenvolvimento-sismec\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
+            "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
+              "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
             }
           }
         }
@@ -10246,7 +10246,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

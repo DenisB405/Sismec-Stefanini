@@ -14,6 +14,7 @@ namespace Frist_Project_Stefanini.Api.Controllers
 {
     [ApiController]
     [Route("{controller}/{action}")]
+    [Produces("application/json")]
     public class BaseController<TEntity, TEntityRequest, TEntityResponse> : ControllerBase
         where TEntity : EntityBase
         where TEntityRequest : EntidadeRequestBase
@@ -36,10 +37,11 @@ namespace Frist_Project_Stefanini.Api.Controllers
             else
                 return BadRequest(400);
         }
-        [HttpGet]
+        [HttpPost]
         public ActionResult<PaginacaoResponse<TEntityResponse>> getPagina([FromBody]PaginacaoRequest dado)
         {
             var lista = app.getAll().ToList();
+            
             if (lista != null)
                 return Paginacao<TEntityResponse>.getPage(lista, dado);
             else

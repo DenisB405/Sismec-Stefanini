@@ -32,9 +32,10 @@
               "src/styles.scss",
               "./node_modules/font-awesome/css/font-awesome.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
-
             ],
-            "scripts": [ "node_modules/jquery/dist/jquery.min.js" ]
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -99,7 +100,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [ "node_modules/jquery/dist/jquery.min.js" ]
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
           }
         },
         "lint": {
@@ -130,5 +133,8 @@
       }
     }
   },
-  "defaultProject": "SistemaEnem"
+  "defaultProject": "SistemaEnem",
+  "cli": {
+    "analytics": "3d349142-8f50-474f-9101-aeab2bdeac34"
+  }
 }
