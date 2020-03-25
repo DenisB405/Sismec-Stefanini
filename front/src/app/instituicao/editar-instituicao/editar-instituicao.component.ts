@@ -3,6 +3,8 @@ import { Http } from '@angular/http';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Instituicao } from '../instituicao/instituicao';
+import { InstituicaoService } from '../instituicao/Service/instituicao.service'
+import { instituicaoRequest } from '../instituicao/InstituicaoPage/instituicaoPageRequest';
 
 @Component({
   selector: 'app-editar-instituicao',
@@ -15,30 +17,35 @@ export class EditarInstituicaoComponent implements OnInit {
   errors: Array<string> = [];
   cont: number = 0;
   InstituicaoForm: FormGroup;
-  private readonly API;
+  request: instituicaoRequest;
 
   constructor(
     private formBuilder: FormBuilder,
     private http: Http,
     private router: Router,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private service: InstituicaoService
   ) { }
 
   public mascaraCodigo = [/[1-9]/, /\d/, /\d/, /\d/, /\d/];
 
   ngOnInit() {
 
-    // this.route.params.subscribe(
-    //   (params:any) => {
-    //     const codigoParam = params['codigo'];
-    //   }
-    // );
+    this.route.params.subscribe(
+      (params:any) => {
+        const codigoParam = params['codigo'];
+        const instituicao$ = this.service.loadByCodigo(codigoParam);
+        instituicao$.subscribe(instituicao => {
+          this.updateForm(instituicao);
+        })
+      }
+    );
 
-    const instituicao = this.route.snapshot.data['instituicao'];
+    //const instituicao = this.route.snapshot.data['instituicao'];
 
     this.InstituicaoForm = this.formBuilder.group({
-      codigo: [instituicao.codigo],
-      descricao: [instituicao.descricao, [Validators.required, Validators.maxLength(255)]]
+      codigo: [null],
+      descricao: [null, [Validators.required, Validators.maxLength(255)]]
     });
   }
 
@@ -64,9 +71,9 @@ export class EditarInstituicaoComponent implements OnInit {
 
   }
 
-  onEdit(codigo) {
-    this.router.navigate(['instituicao/editarinstituicao', codigo], { relativeTo: this.route });
-  }
+  // onEdit(codigo) {
+  //   this.router.navigate(['instituicao/editarinstituicao', codigo], { relativeTo: this.route });
+  // }
 
   onSubmit() {
     this.errorsCodigo = [];
@@ -75,31 +82,22 @@ export class EditarInstituicaoComponent implements OnInit {
     this.validaCodigo();
     if (this.InstituicaoForm.get('codigo')) {
       //update
-
-    } else {
-      //error
+      this.service.update(this.InstituicaoForm.value).subscribe(
+        dados => {
+          console.log(dados);
+          this.InstituicaoForm.value.reset();
+        },
+        (error: any) => alert('erro')
+      );
     }
-    // return this.http.put('#', JSON.stringify(this.InstituicaoForm.value))
-    //   .map(response => response)
-    //   .subscribe(
-    //     dados => {
-    //       console.log(dados);
-    //       this.InstituicaoForm.value.reset();
-    //     },
-    //     (error: any) => alert('erro')
-    //   );
-  }
-  
-  loadByCodigo(codigo){
-    return this.http.get<Instituicao>(`${this.API}/${codigo}`).pipe(take(1));
   }
 
-  // updateForm(instituicao) {
-  //   this.InstituicaoForm.patchValue({
-  //     codigo: instituicao.codigo,
-  //     descricao: instituicao.descricao
-  //   });
-  // }
+  updateForm(instituicao){
+    this.InstituicaoForm.patchValue({
+      codigo: instituicao.codigo,
+      descricao: instituicao.descricao
+    });
+  }
 
   validaCodigo() {
     if (this.InstituicaoForm.get('codigo').errors) {

@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.tests\\First_Project_Stefanini.TestRepositorio.csproj": {}
+    "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.tests\\First_Project_Stefanini.TestRepositorio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj": {
+    "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj",
+        "projectUniqueName": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj",
         "projectName": "First_Project_Stefanini.Application",
-        "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj",
-        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\obj\\",
+        "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj",
+        "packagesPath": "C:\\Users\\solar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\solar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
+              "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
+                "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
               }
             }
           }
@@ -66,26 +65,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj": {
+    "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj",
+        "projectUniqueName": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj",
         "projectName": "First_Project_Stefanini.Structure.DI",
-        "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj",
-        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\obj\\",
+        "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj",
+        "packagesPath": "C:\\Users\\solar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\solar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -97,14 +95,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj"
+              "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj": {
+                "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj"
               },
-              "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj"
+              "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
+                "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj"
               },
-              "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
+              "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
+                "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
               }
             }
           }
@@ -144,26 +142,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
+    "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj",
+        "projectUniqueName": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj",
         "projectName": "First_Project_Stefanini.Structure.Data",
-        "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj",
-        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\obj\\",
+        "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj",
+        "packagesPath": "C:\\Users\\solar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\solar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -175,8 +172,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
+              "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
+                "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
               }
             }
           }
@@ -216,26 +213,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.tests\\First_Project_Stefanini.TestRepositorio.csproj": {
+    "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.tests\\First_Project_Stefanini.TestRepositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.tests\\First_Project_Stefanini.TestRepositorio.csproj",
+        "projectUniqueName": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.tests\\First_Project_Stefanini.TestRepositorio.csproj",
         "projectName": "First_Project_Stefanini.TestRepositorio",
-        "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.tests\\First_Project_Stefanini.TestRepositorio.csproj",
-        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.tests\\obj\\",
+        "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.tests\\First_Project_Stefanini.TestRepositorio.csproj",
+        "packagesPath": "C:\\Users\\solar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\solar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -247,14 +243,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj"
+              "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
+                "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj"
               },
-              "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj"
+              "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj": {
+                "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj"
               },
-              "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
+              "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
+                "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
               }
             }
           }
@@ -315,26 +311,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj": {
+    "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj",
+        "projectUniqueName": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj",
         "projectName": "Frist_Project_Stefanini.Api",
-        "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj",
-        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\obj\\",
+        "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\Frist_Project_Stefanini.Api.csproj",
+        "packagesPath": "C:\\Users\\solar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\solar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -346,14 +341,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj"
+              "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj": {
+                "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj"
               },
-              "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj"
+              "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj": {
+                "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj"
               },
-              "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj"
+              "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
+                "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj"
               }
             }
           }
@@ -408,26 +403,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
+    "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj",
         "projectName": "Frist_Project_Stefanini.Domain",
-        "projectPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj",
-        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Desktop\\Repositorio Sismec\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\obj\\",
+        "projectPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj",
+        "packagesPath": "C:\\Users\\solar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solar\\source\\repos\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\solar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -464,7 +458,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

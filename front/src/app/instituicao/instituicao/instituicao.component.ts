@@ -1,8 +1,8 @@
 import { Component, OnInit, Injectable } from '@angular/core';
 import { Instituicao } from './Instituicao';
-import { InstituicaoService } from './instituicao.service';
-import { instituicaoRequest } from './instituicaoRequest';
-import { instituicaoResponse } from './instituicaoResponse';
+import { InstituicaoService } from './Service/instituicao.service';
+import { instituicaoRequest } from './InstituicaoPage/instituicaoPageRequest';
+import { instituicaoResponse } from './InstituicaoPage/instituicaoPageResponse';
 
 @Component({
   selector: 'app-instituicao',

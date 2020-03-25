@@ -28,3 +28,11 @@ C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\Frist_Project_Stefan
 C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\Frist_Project_Stefanini.Domain\obj\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.AssemblyInfo.cs
 C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\Frist_Project_Stefanini.Domain\obj\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.dll
 C:\Users\flavi\Music\projeto-desenvolvimento-sismec\Api\src\Frist_Project_Stefanini.Domain\obj\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.pdb
+C:\Users\solar\source\repos\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\bin\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.deps.json
+C:\Users\solar\source\repos\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\bin\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.dll
+C:\Users\solar\source\repos\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\bin\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.pdb
+C:\Users\solar\source\repos\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\obj\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.csprojAssemblyReference.cache
+C:\Users\solar\source\repos\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\obj\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.AssemblyInfoInputs.cache
+C:\Users\solar\source\repos\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\obj\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.AssemblyInfo.cs
+C:\Users\solar\source\repos\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\obj\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.dll
+C:\Users\solar\source\repos\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\obj\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.pdb
