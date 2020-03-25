@@ -19,16 +19,31 @@ namespace Frist_Project_Stefanini.Api.Controllers
         public InstituicaoController(IInstituicaoAppService app) : base(app)
         {
             appInstituicao = app;
-            for(int i=1; i < 62; i++)
-            {
-                app.Add(new InstituicaoRequest() { codigo = i, descricao = "descript" });
-            }
         }
 
         [HttpPut]
         public ActionResult update([FromBody]InstituicaoRequest dado)
         {
-            return Ok();
+            var aux = appInstituicao.SearchByCodigo(dado.codigo);
+            if (aux != null)
+            {
+                var c = appInstituicao.UpdateByCodigo(dado);
+                if(c != null)
+                    return Ok();
+            }
+            return BadRequest();
+        }
+
+        [HttpGet]
+        [Route("{id:int}")]
+        public ActionResult<InstituicaoResponse> getInstituicao(int id)
+        {
+            var aux = appInstituicao.SearchByCodigo(id);
+            if (aux != null)
+            {
+                return aux;
+            }
+            return BadRequest();
         }
     }
 }

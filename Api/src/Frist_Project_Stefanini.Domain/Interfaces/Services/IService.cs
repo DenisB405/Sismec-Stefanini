@@ -8,11 +8,11 @@ namespace Frist_Project_Stefanini.Domain.Interfaces.Services
     public interface IService<TEntity> where TEntity : EntityBase
     {
         TEntity Add(TEntity entity);
-        IEnumerable<TEntity> getAll();
-        //TEntity Remove(TEntity entity);
-        //TEntity RemoveById(int id);
-        //TEntity SearchByID(int id);
-        //TEntity Update(TEntity entity);
-        //TEntity UpdateById(int id);
+        public IEnumerable<TEntity> getAll();
+        TEntity SearchById(int id);
+        TEntity Update(TEntity entity);
+        IEnumerable<TEntity> GetAll();
+        TEntity Delete(TEntity entity);
+
     }
 }

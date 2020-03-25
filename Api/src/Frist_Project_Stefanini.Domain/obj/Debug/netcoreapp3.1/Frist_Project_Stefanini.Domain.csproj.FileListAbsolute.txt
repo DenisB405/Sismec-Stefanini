@@ -1,0 +1,8 @@
+C:\Users\Denis\Desktop\Repositorio Sismec\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\bin\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.deps.json
+C:\Users\Denis\Desktop\Repositorio Sismec\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\bin\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.dll
+C:\Users\Denis\Desktop\Repositorio Sismec\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\bin\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.pdb
+C:\Users\Denis\Desktop\Repositorio Sismec\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\obj\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\Repositorio Sismec\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\obj\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.AssemblyInfoInputs.cache
+C:\Users\Denis\Desktop\Repositorio Sismec\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\obj\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.AssemblyInfo.cs
+C:\Users\Denis\Desktop\Repositorio Sismec\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\obj\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.dll
+C:\Users\Denis\Desktop\Repositorio Sismec\Sismec-Stefanini\Api\src\Frist_Project_Stefanini.Domain\obj\Debug\netcoreapp3.1\Frist_Project_Stefanini.Domain.pdb

@@ -8,6 +8,8 @@ namespace Frist_Project_Stefanini.ApplicarionCore.Interfaces.Services
 {
     public interface IInstituicaoService : IService<Instituicao>
     {
-        //Instituicao SearchByCodigo(int codigo);
+        Instituicao SearchByCodigo(int codigo);
+        Instituicao UpdateByCodigo(Instituicao instituicao);
+        Instituicao DeleteByCodigo(int Codigo);
     }
 }

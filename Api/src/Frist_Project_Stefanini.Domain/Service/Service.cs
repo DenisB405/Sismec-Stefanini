@@ -23,9 +23,33 @@ namespace Frist_Project_Stefanini.Domain.Service
             return _IRepository.Add(entity);
         }
 
+        public TEntity Delete(TEntity entity)
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<TEntity> getAll()
         {
             return _IRepository.GetAll();
+        }
+
+        public IEnumerable<TEntity> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public TEntity SearchById(int id)
+        {
+            if (id <= 0)
+                return null;
+            return _IRepository.SearchById(id);
+        }
+
+        public TEntity Update(TEntity entity)
+        {
+            if (entity == null)
+                return null;
+            return _IRepository.Update(entity);
         }
     }
 }

@@ -29,5 +29,23 @@ namespace Frist_Project_Stefanini.ApplicarionCore.Service
 
             return instituicaoRepository.Add(entity);
         }
+
+        public Instituicao DeleteByCodigo(int Codigo)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Instituicao SearchByCodigo(int codigo)
+        {
+            var busca = this.instituicaoRepository.SearchByCodigo(codigo);
+            if (busca == null)
+                return null;
+            return busca;
+        }
+
+        public Instituicao UpdateByCodigo(Instituicao instituicao)
+        {
+            return this.instituicaoRepository.UpdateByCodigo(instituicao);
+        }
     }
 }

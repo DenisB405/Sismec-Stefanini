@@ -8,6 +8,8 @@ namespace First_Project_Stefanini.Application.Interface
 {
     public interface IInstituicaoAppService : IAppServiceBase<Instituicao,InstituicaoRequest, InstituicaoResponse>
     {
-        //InstituicaoResponse SearchByCodigo(int codigo);
+        InstituicaoResponse SearchByCodigo(int codigo);
+        InstituicaoResponse UpdateByCodigo(InstituicaoRequest instituicao);
+        InstituicaoResponse DeleteByCodigo(int Codigo);
     }
 }
