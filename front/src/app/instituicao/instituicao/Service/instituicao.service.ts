@@ -17,13 +17,11 @@ export class InstituicaoService {
   }
 
   loadByCodigo(codigo) {
-    return this.http.get<Instituicao>(`${this.API}/${codigo}`).pipe(take(1));
+    return this.http.get<Instituicao>(`${this.API}` + '/getInstituicao/' + `${codigo}`).pipe(take(1));
   }
 
   update(instituicao) {
-    instituicao.codigo = 1;
-    instituicao.descricao = 'zz';
-    return this.http.put(`${this.API}` + '/update', instituicao).pipe(take(1));
+    return this.http.put(`${this.API}` + '/update/' + `${instituicao.codigo}`, instituicao).pipe(take(1));
   }
 }
 

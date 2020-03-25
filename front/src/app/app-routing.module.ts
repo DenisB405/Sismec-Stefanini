@@ -21,7 +21,7 @@ const routes: Routes = [
     path: 'instituicao/cadastroinstituicao', component: CadastroIntituicaoComponent
   },
   {
-    path: 'instituicao/update/:codigo', component: EditarInstituicaoComponent,
+    path: 'instituicao/editarinstituicao/:codigo', component: EditarInstituicaoComponent,
     resolve:{
       instituicao: InstituicaoResolverGuard
     }
