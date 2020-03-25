@@ -1,4 +1,4 @@
 export interface Instituicao {
-    codigo: string;
+    codigo: number;
     descricao: string;
 }

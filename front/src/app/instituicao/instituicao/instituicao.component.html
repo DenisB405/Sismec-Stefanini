@@ -1,0 +1,27 @@
+<div class="card mt-3">
+    <div class="card-header">
+        <div class="float-left">
+            <h4>Instituições</h4>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Descrição</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let Instituicao of Response.listaRegistros | paginate: config ">
+                    <td>{{Instituicao.codigo}}</td>
+                    <td>{{Instituicao.descricao}}</td>
+                    <td>
+                    </td>
+                </tr>
+            </tbody> 
+        </table>
+        <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
+    </div>
+</div>

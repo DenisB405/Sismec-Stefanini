@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -15,6 +14,9 @@ import { CandidatoComponent } from './candidato/candidato.component';
 import { CadastroIntituicaoComponent } from './Instituicao/cadastro-intituicao/cadastro-intituicao.component';
 import { InstituicaoComponent } from './Instituicao/instituicao/instituicao.component';
 import { EditarInstituicaoComponent } from './Instituicao/editar-instituicao/editar-instituicao.component';
+import {NgxPaginationModule} from 'ngx-pagination';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 
@@ -37,7 +39,9 @@ import { EditarInstituicaoComponent } from './Instituicao/editar-instituicao/edi
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
-    TextMaskModule
+    TextMaskModule,
+    NgxPaginationModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

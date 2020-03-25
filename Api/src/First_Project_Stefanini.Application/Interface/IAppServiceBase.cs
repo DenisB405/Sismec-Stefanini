@@ -12,10 +12,11 @@ namespace First_Project_Stefanini.Application.Interface
         where TEntityResponse : EntidadeResponseBase
     {
         TEntityResponse Add(TEntityRequest entidadeRequest);
+        public IEnumerable<TEntityResponse> getAll();
         //TEntityResponse Remove(TEntityRequest entidadeRequest);
         //TEntityResponse RemoveById(int id);
         //TEntityResponse SearchByID(int id);
         //TEntityResponse Update(TEntityRequest entidadeRequest);
-       // TEntityResponse UpdateById(int id);
+        // TEntityResponse UpdateById(int id);
     }
 }

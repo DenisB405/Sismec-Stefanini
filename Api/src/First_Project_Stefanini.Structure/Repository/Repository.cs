@@ -29,5 +29,7 @@ namespace First_Project_Stefanini.Structure.Repository
         {
             return _dbContext.Set<TEntity>().AsEnumerable();
         }
+
+       
     }
 }
