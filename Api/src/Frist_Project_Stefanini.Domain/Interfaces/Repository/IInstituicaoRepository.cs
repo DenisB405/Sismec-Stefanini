@@ -8,7 +8,8 @@ namespace Frist_Project_Stefanini.ApplicarionCore.Interfaces
     public interface IInstituicaoRepository : IRepository<Instituicao>
     {
         Instituicao SearchByCodigo(int codigo);
-        //Instituicao RemoveByCodigo(int codigo);
+        Instituicao UpdateByCodigo(Instituicao instituicao);
+        Instituicao DeleteByCodigo(int Codigo);
     }
 
 

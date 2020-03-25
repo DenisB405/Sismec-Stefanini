@@ -20,7 +20,7 @@ namespace Frist_Project_Stefanini.Api.Controllers
             appInstituicao = app;
             for(int i=1; i < 62; i++)
             {
-                app.Add(new InstituicaoRequest() { Codigo = i, Descricao = "descript" });
+                app.Add(new InstituicaoRequest() { codigo = i, descricao = "descript" });
             }
         }
     }

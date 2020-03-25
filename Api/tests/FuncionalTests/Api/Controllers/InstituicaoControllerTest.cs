@@ -45,7 +45,7 @@ namespace FuncionalTests.Api.Controllers
         public void DadoCadastroInstituicaoValidoDeveRetornarOkResult()
         {
             //arrange
-            var instituicaoRequest = new InstituicaoRequest() { Codigo = 100, Descricao = "Universidade" };
+            var instituicaoRequest = new InstituicaoRequest() { codigo = 100, descricao = "Universidade" };
             var controller = getController();
             //act
             var retorno = controller.add(instituicaoRequest);
@@ -59,8 +59,8 @@ namespace FuncionalTests.Api.Controllers
         public void DadoCadastroInstituicaoValidoComCodigoDuplicadoDeveRetornarBadRequest()
         {
             //arrange
-            var instituicaoRequest = new InstituicaoRequest() { Codigo = 100, Descricao = "Universidade" };
-            var instituicaoRequestDuplicado = new InstituicaoRequest() { Codigo = 100, Descricao = "Universidade" };
+            var instituicaoRequest = new InstituicaoRequest() { codigo = 100, descricao = "Universidade" };
+            var instituicaoRequestDuplicado = new InstituicaoRequest() { codigo = 100, descricao = "Universidade" };
             var controller = getController();
             controller.add(instituicaoRequest);
             //act
@@ -73,7 +73,7 @@ namespace FuncionalTests.Api.Controllers
         public void DadoCadastroInstituicaoCodigoIgualMenosUmDeveRetornarBadRequest()
         {
             //arrange
-            var instituicaoRequest = new InstituicaoRequest() { Codigo = -1, Descricao = "Universidade" };
+            var instituicaoRequest = new InstituicaoRequest() { codigo = -1, descricao = "Universidade" };
             var controller = getController();
             //act
             var retorno = controller.add(instituicaoRequest);
@@ -85,7 +85,7 @@ namespace FuncionalTests.Api.Controllers
         public void DadoCadastroInstituicaoCodigoIgualZeroDeveRetornarBadRequest()
         {
             //arrange
-            var instituicaoRequest = new InstituicaoRequest() { Codigo = 0, Descricao = "Universidade" };
+            var instituicaoRequest = new InstituicaoRequest() { codigo = 0, descricao = "Universidade" };
             var controller = getController();
             //act
             var retorno = controller.add(instituicaoRequest);
@@ -97,7 +97,7 @@ namespace FuncionalTests.Api.Controllers
         public void DadoCadastroInstituicaoCodigoIgualSemMilDeveRetornarBadRequest()
         {
             //arrange
-            var instituicaoRequest = new InstituicaoRequest() { Codigo = 100000, Descricao = "Universidade" };
+            var instituicaoRequest = new InstituicaoRequest() { codigo = 100000, descricao = "Universidade" };
             var controller = getController();
             //act
             var retorno = controller.add(instituicaoRequest);

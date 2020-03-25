@@ -11,7 +11,10 @@ namespace Frist_Project_Stefanini.ApplicarionCore.Interfaces
     {
 
         TEntity Add(TEntity entity);
+        TEntity SearchById(int id);
+        TEntity Update(TEntity entity);
         IEnumerable<TEntity> GetAll();
+        TEntity Delete(TEntity entity);
 
     }
 }

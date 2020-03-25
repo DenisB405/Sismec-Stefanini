@@ -13,7 +13,7 @@ namespace First_Project_Stefanini.Application.Paginacao
     {
         public static PaginacaoResponse<TEntityResponse> getPage(List<TEntityResponse> allRegistro, PaginacaoRequest request)
         {
-            var paginaSkip = (request.page-1) * request.quantidade;
+            var paginaSkip = (request.page) * request.quantidade;
             PaginacaoResponse<TEntityResponse> response = new PaginacaoResponse<TEntityResponse>();
             response.quantidade = allRegistro.Count;
             response.listaRegistros = allRegistro.Skip(paginaSkip).Take(request.quantidade);

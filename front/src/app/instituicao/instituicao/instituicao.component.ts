@@ -21,7 +21,8 @@ export class InstituicaoComponent implements OnInit {
     this.Response = new instituicaoResponse();
     this.Request = new instituicaoRequest();
     this.Request.page = 1;
-    this.Request.quantidade = 10;
+    this.quantidadeDeRegistros = 10;
+    this.Request.quantidade = this.quantidadeDeRegistros;
     this.config = {
       itemsPerPage: this.Request.quantidade,
       currentPage: this.Request.page

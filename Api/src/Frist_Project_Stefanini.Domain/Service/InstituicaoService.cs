@@ -12,6 +12,7 @@ namespace Frist_Project_Stefanini.ApplicarionCore.Service
     public class InstituicaoService : Service<Instituicao>, IInstituicaoService
     {
         private readonly IInstituicaoRepository instituicaoRepository;
+        
         public InstituicaoService(IInstituicaoRepository iRepository) : base(iRepository)
         {
             instituicaoRepository = iRepository;

@@ -25,11 +25,28 @@ namespace First_Project_Stefanini.Structure.Repository
             return entity;
         }
 
+        public virtual TEntity Delete(TEntity entity)
+        {
+            _dbContext.Set<TEntity>().Remove(entity);
+            _dbContext.SaveChanges();
+            return entity;
+        }
+
         public IEnumerable<TEntity> GetAll()
         {
             return _dbContext.Set<TEntity>().AsEnumerable();
         }
 
-       
+        public virtual TEntity SearchById(int id)
+        {
+            return _dbContext.Set<TEntity>().Where(p => p.Id == id).FirstOrDefault();
+        }
+
+        public virtual TEntity Update(TEntity entity)
+        {
+            _dbContext.Set<TEntity>().Update(entity);
+            _dbContext.SaveChanges();
+            return entity;
+        }
     }
 }
