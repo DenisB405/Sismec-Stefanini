@@ -1,6 +1,9 @@
 import { Instituicao } from '../Instituicao';
 
 export class instituicaoResponse {
-    quantidade: number;
+    currentPage: number;
+    firstPage: number;
+    lastPage: number;
+    allPage : number[];
     listaRegistros: Instituicao[];
 }

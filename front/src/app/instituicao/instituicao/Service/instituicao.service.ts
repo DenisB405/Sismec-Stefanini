@@ -1,9 +1,13 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Instituicao } from '../Instituicao';
 import { tap, take } from 'rxjs/operators';
 import { instituicaoRequest } from '../InstituicaoPage/instituicaoPageRequest';
 import { instituicaoResponse } from '../InstituicaoPage/instituicaoPageResponse';
+
+var httpOptions = {
+  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+};
 
 @Injectable({
   providedIn: 'root'
@@ -13,7 +17,7 @@ export class InstituicaoService {
 
   constructor(private http: HttpClient) { }
   list(request: instituicaoRequest) {
-    return this.http.post<instituicaoResponse>('https://localhost:44351/Instituicao/getPagina', request);
+    return this.http.post<instituicaoResponse>('https://localhost:44351/Instituicao/getPagina', request, httpOptions);
   }
 
   loadByCodigo(codigo) {

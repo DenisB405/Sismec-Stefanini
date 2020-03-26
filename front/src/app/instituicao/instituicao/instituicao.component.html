@@ -22,6 +22,11 @@
                 </tr>
             </tbody> 
         </table>
-        <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
+        <pagination-template (pageChange) = "pageChange($event)">
+ 
+        <div class = "pagination-previous" [class.disabled] = "Response.firstPage">
+            <a *ngIf="Response.firstPage"> </a>
+        </div>
+</pagination-template>
     </div>
 </div>

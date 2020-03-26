@@ -31,7 +31,7 @@ export class InstituicaoComponent implements OnInit {
   pageChanged(event: number){
     this.Request.page = event;
     this.list();
-    console.log(this.Response.listaRegistros);   
+      
     this.config = {
       itemsPerPage: this.quantidadeDeRegistros,
       currentPage: event
@@ -40,10 +40,9 @@ export class InstituicaoComponent implements OnInit {
   list(){
     this.service.list(this.Request)
     .subscribe(dados =>this.Response = dados);
+    
   }
   ngOnInit() { 
     this.pageChanged(1);
-    this.list();
-             
   }
 }

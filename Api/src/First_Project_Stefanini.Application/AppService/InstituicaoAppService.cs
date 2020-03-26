@@ -21,7 +21,7 @@ namespace First_Project_Stefanini.Application.AppService
                 servicoInstituicao.Add(new Instituicao()
                 {
                     Codigo = i,
-                    Descricao = "Universidade federal"
+                    Descricao = "Universidade federal3"
                 });
             }
         }
