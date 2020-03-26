@@ -1,0 +1,280 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj",
+        "projectName": "First_Project_Stefanini.Application",
+        "projectPath": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj",
+        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
+                "projectPath": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj",
+        "projectName": "First_Project_Stefanini.Structure.DI",
+        "projectPath": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\First_Project_Stefanini.Structure.DI.csproj",
+        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure.DI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj": {
+                "projectPath": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Application\\First_Project_Stefanini.Application.csproj"
+              },
+              "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
+                "projectPath": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj"
+              },
+              "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
+                "projectPath": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj",
+        "projectName": "First_Project_Stefanini.Structure.Data",
+        "projectPath": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\First_Project_Stefanini.Structure.Data.csproj",
+        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\First_Project_Stefanini.Structure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
+                "projectPath": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj",
+        "projectName": "Frist_Project_Stefanini.Domain",
+        "projectPath": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\Frist_Project_Stefanini.Domain.csproj",
+        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\flavi\\Music\\projeto\\Sismec-Stefanini\\Api\\src\\Frist_Project_Stefanini.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -18,15 +18,26 @@
                     <td>{{Instituicao.codigo}}</td>
                     <td>{{Instituicao.descricao}}</td>
                     <td>
+                        <span class="float-right">
+                            <button type="button" class="btn btn-outline-warning mb-1 btn-sm" (click)="onEdit(Instituicao.codigo, Instituicao.descricao)">
+                                Editar
+                            </button>
+                            {{ ' ' }}
+                            <button type="button" class="btn btn-outline-danger mb-1 btn-sm" (click)="onDelete()">
+                                Remover
+                            </button>
+                    </span>
                     </td>
                 </tr>
-            </tbody> 
+            </tbody>
         </table>
-        <pagination-template (pageChange) = "pageChange($event)">
- 
-        <div class = "pagination-previous" [class.disabled] = "Response.firstPage">
-            <a *ngIf="Response.firstPage"> </a>
+        <pagination-template (pageChange)="pageChange($event)">
+            <div class="pagination-previous" [class.disabled]="Response.firstPage">
+                <a *ngIf="Response.firstPage"> </a>
+            </div>
+        </pagination-template>
+        <div class=paginacao>
+            <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
         </div>
-</pagination-template>
     </div>
 </div>
