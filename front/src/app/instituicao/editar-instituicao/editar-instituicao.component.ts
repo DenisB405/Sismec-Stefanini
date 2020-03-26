@@ -17,8 +17,8 @@ export class EditarInstituicaoComponent implements OnInit {
   errors: Array<string> = [];
   cont: number = 0;
   InstituicaoForm: FormGroup;
-  request: instituicaoRequest;
-
+  request: Instituicao;
+  aux:number;
   constructor(
     private formBuilder: FormBuilder,
     private http: Http,
@@ -82,7 +82,9 @@ export class EditarInstituicaoComponent implements OnInit {
     this.validaCodigo();
     if (this.InstituicaoForm.get('codigo')) {
       //update
-      this.service.update(this.InstituicaoForm.value).subscribe(
+      console.log(this.InstituicaoForm.get("codigo").value);
+      this.setRequest(this.InstituicaoForm);
+      this.service.update(this.request).subscribe(
         dados => {
           console.log(dados);
           this.InstituicaoForm.value.reset();
@@ -93,6 +95,7 @@ export class EditarInstituicaoComponent implements OnInit {
   }
 
   updateForm(instituicao){
+    
     this.InstituicaoForm.patchValue({
       codigo: instituicao.codigo,
       descricao: instituicao.descricao
@@ -106,5 +109,9 @@ export class EditarInstituicaoComponent implements OnInit {
     }
     console.log(this.InstituicaoForm.get('codigo').errors);
     console.log(this.errorsCodigo);
+  }
+  setRequest(instituicao){
+      this.request.codigo = instituicao.get("codigo").value;
+      this.request.descricao = instituicao.get("descricao").value;
   }
 }

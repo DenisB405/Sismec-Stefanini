@@ -3,6 +3,7 @@ import { Instituicao } from './Instituicao';
 import { InstituicaoService } from './Service/instituicao.service';
 import { instituicaoRequest } from './InstituicaoPage/instituicaoPageRequest';
 import { instituicaoResponse } from './InstituicaoPage/instituicaoPageResponse';
+import { Router } from '@angular/router'; 
 
 @Component({
   selector: 'app-instituicao',
@@ -13,11 +14,11 @@ import { instituicaoResponse } from './InstituicaoPage/instituicaoPageResponse';
 export class InstituicaoComponent implements OnInit {
   config: any;
   quantidadeDeRegistros: number;
-
+  
   Response: instituicaoResponse;
   instituicoes: Instituicao[];
   Request : instituicaoRequest;
-  constructor(private service: InstituicaoService ) {
+  constructor(private service: InstituicaoService,private router: Router ) {
     this.Response = new instituicaoResponse();
     this.Request = new instituicaoRequest();
     this.Request.page = 1;
@@ -45,5 +46,8 @@ export class InstituicaoComponent implements OnInit {
 
   ngOnInit() { 
     this.pageChanged(1);
+  }
+  goToPage(codigo:number){
+    this.router.navigate(['instituicao/editarinstituicao/', codigo]);
   }
 }

@@ -22,9 +22,6 @@ const routes: Routes = [
   },
   {
     path: 'instituicao/editarinstituicao/:codigo', component: EditarInstituicaoComponent,
-    resolve:{
-      instituicao: InstituicaoResolverGuard
-    }
   }
 ];
 

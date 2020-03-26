@@ -21,11 +21,13 @@ export class InstituicaoService {
   }
 
   loadByCodigo(codigo) {
+    
     return this.http.get<Instituicao>(`${this.API}` + '/getInstituicao/' + `${codigo}`).pipe(take(1));
   }
 
-  update(instituicao) {
-    return this.http.put(`${this.API}` + '/update/' + `${instituicao.codigo}`, instituicao).pipe(take(1));
+  update(instituicao:Instituicao) {
+    console.log(instituicao);
+    return this.http.put(`${this.API}` + '/update', instituicao).pipe(take(1));
   }
 }
 
