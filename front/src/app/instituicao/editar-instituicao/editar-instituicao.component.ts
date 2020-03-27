@@ -83,9 +83,11 @@ export class EditarInstituicaoComponent implements OnInit {
     if (this.InstituicaoForm.get('codigo')) {
       //update
       console.log(this.InstituicaoForm.get("codigo").value);
-      this.service.update(this.InstituicaoForm.get("codigo").value,this.InstituicaoForm.get("descricao").value).subscribe(
+      this.setRequest(this.InstituicaoForm);
+      this.service.update(this.request).subscribe(
         dados => {
-          
+          console.log(dados);
+          this.InstituicaoForm.value.reset();
         },
         (error: any) => alert('erro')
       );
@@ -107,5 +109,9 @@ export class EditarInstituicaoComponent implements OnInit {
     }
     console.log(this.InstituicaoForm.get('codigo').errors);
     console.log(this.errorsCodigo);
+  }
+  setRequest(instituicao){
+      this.request.codigo = instituicao.get("codigo").value;
+      this.request.descricao = instituicao.get("descricao").value;
   }
 }
