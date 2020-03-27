@@ -17,18 +17,14 @@ namespace First_Project_Stefanini.Application.Paginacao
             
             PaginacaoResponse<TEntityResponse> response = new PaginacaoResponse<TEntityResponse>();
             List<int> allpages = new List<int>();
-            for(int i=1;i<= allRegistro.Count / request.quantidade; i++)
-            {
-                allpages.Add(i);
-            }
-      
-            response.allPage = allpages.ToList();
-            response.firstPage = 1;
             
-            response.lastPage = response.allPage.Count();
+      
+            response.quantPage = (allRegistro.Count-1) * request.quantidade;
+            response.quantidade = allRegistro.Count;
+            
             response.currentPage = request.page;
             if (request.quantidade % (allpages.Count()) != 0)
-                response.lastPage++;
+                response.quantPage++;
 
                 response.listaRegistros = allRegistro.Skip(paginaSkip).Take(request.quantidade);
             return response;
