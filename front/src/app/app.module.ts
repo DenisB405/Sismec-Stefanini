@@ -16,6 +16,7 @@ import { InstituicaoComponent } from './Instituicao/instituicao/instituicao.comp
 import { EditarInstituicaoComponent } from './Instituicao/editar-instituicao/editar-instituicao.component';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { HttpClientModule } from '@angular/common/http';
+import { ExcluirComponent } from './instituicao/Excluir/excluir.component';
 
 
 
@@ -31,6 +32,7 @@ import { HttpClientModule } from '@angular/common/http';
     CandidatoComponent,
     CadastroIntituicaoComponent,
     EditarInstituicaoComponent,
+    ExcluirComponent,
   ],
   imports: [
     BrowserModule,

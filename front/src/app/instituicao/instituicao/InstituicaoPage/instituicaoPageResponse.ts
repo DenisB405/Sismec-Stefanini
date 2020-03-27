@@ -2,8 +2,7 @@ import { Instituicao } from '../Instituicao';
 
 export class instituicaoResponse {
     currentPage: number;
-    firstPage: number;
-    lastPage: number;
-    allPage : number[];
+    totalPages: number;
+    quantidadeTotal: number;
     listaRegistros: Instituicao[];
 }
